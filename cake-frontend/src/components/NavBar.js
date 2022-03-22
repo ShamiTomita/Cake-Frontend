@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const NavBar = () => {
   return (
     <>
-    <div style={{ borderBottom: '2px solid #4d4dff', background:'#ccccff', paddingBottom: '10px', paddingLeft: '10px', paddingTop:'10px' }}>
+    <div>
       <NavLink
         style={{ marginRight: '10px' }}
         to="/home"
