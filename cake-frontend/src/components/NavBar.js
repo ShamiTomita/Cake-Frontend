@@ -1,19 +1,18 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom';
+import React from 'react';
+import {NavLink} from 'react-router-dom';
 
-const NavBar = () => {
+const Navbar = () => {
   return (
     <>
-    <div>
-      <NavLink
-        style={{ marginRight: '10px' }}
-        to="/home"
-      >
-        <button className="nav-button">Home</button>
-      </NavLink>
-      <p>hi</p>
-    </div>
+          <NavLink to='/' activeStyle>
+            Home
+          </NavLink>
+          
+          <NavLink to='/browse' activeStyle>
+            Browse
+          </NavLink>
     </>
   );
-}
-export default NavBar
+};
+
+export default Navbar;
