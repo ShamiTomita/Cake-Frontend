@@ -12,6 +12,7 @@ function App() {
     <NavBar />
     <Routes>
       <Route path="/" elements={<Home/>}/>
+
       <Route path="/browse" elements={<Browse/>}/>
     </Routes>
       <div>
