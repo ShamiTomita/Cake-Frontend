@@ -16,8 +16,8 @@ const Navbar = () => {
           </NavLink>
           </div>
           <div className="nav">
-          <NavLink to='/browse' activeStyle>
-          Current Orders
+          <NavLink to='/current-order' activeStyle>
+          Current Order
           </NavLink>
           </div>
           <div className="nav">
