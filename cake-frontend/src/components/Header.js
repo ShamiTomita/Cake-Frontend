@@ -1,5 +1,5 @@
 import React from 'react'
-const Header = () => {
+const Header = (props) => {
   return (
     <div>
       <h1>Im the Header</h1>
