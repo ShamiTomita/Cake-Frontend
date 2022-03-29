@@ -5,6 +5,7 @@ import NavBar from './components/NavBar'
 import Header from './components/Header'
 import Browse from './containers/Browse'
 import CurrentOrder from './containers/CurrentOrder'
+import History from './containers/History'
 import {Route, Routes} from 'react-router-dom'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Route path="/" element={<Home/>}/>
       <Route path="/browse" element={<Browse/>}/>
       <Route path="/current-order" element={<CurrentOrder/>}/>
+      <Route path="/order-history" element={<History/>}/>
     </Routes>
 
       <div>

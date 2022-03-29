@@ -21,7 +21,7 @@ const Navbar = () => {
           </NavLink>
           </div>
           <div className="nav">
-          <NavLink to='/browse' activeStyle>
+          <NavLink to='/order-history' activeStyle>
           History
           </NavLink>
           </div>
