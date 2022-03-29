@@ -37,7 +37,17 @@
     transform: translateY(0px);
   }
 }
+.navbar{
+  background-color: rgb(135, 222, 250);
+  height:50px;
 
+  width: 100%;
+
+}
+.nav{
+  display: inline-block;
+  padding: 10px
+}
 .header-fill{
   display: flex;
   width:100%;
