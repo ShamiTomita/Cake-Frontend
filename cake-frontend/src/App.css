@@ -54,4 +54,13 @@
   align-items: center;
   text-align: center;
   white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
+.container{
+  border-color: blue;
+  border-width: medium;
+  border-style: ridge;
+  height: 560px;
+  background-color: rgb(168, 231, 251);
 }
