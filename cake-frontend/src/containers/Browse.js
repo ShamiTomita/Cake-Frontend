@@ -2,7 +2,7 @@ import React from 'react'
 
 const Browse = (props) => {
   return(
-    <div>
+    <div className="container">
       <p>Browse</p>
     </div>
   )

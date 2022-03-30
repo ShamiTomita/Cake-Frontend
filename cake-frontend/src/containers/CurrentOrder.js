@@ -2,7 +2,7 @@ import React from 'react'
 
 const CurrentOrder = (props) => {
   return(
-    <div>
+    <div className="container">
       <p>Current Order</p>
     </div>
   )
