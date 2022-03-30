@@ -39,14 +39,27 @@
 }
 .navbar{
   background-color: rgb(135, 222, 250);
-  height:50px;
+  height:60px;
 
   width: 100%;
 
 }
 .nav{
   display: inline-block;
-  padding: 10px
+  padding-top: 20px;
+  font-style: italic;
+}
+.nav a{
+  text-decoration: none;
+  font-weight: bold;
+  border-width: thick;
+  border-style: ridge;
+  padding: 7px;
+  margin: 10px;
+  border-color: rgb(59, 172, 214)
+}
+.nav a:hover{
+  background-color: rgb(250, 195, 5);
 }
 .header-fill{
   display: flex;
