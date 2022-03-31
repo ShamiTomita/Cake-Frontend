@@ -71,9 +71,23 @@
   width: 100%;
 }
 .container{
-  border-color: blue;
   border-width: medium;
   border-style: ridge;
-  height: 560px;
+  height: 530px;
   background-color: rgb(168, 231, 251);
+  margin: 0 auto;
+  max-width: 1200px;
+  overflow: visible;
+}
+.grid{
+  overflow: visible;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  height: 100%;
+}
+
+.grid-item-2{
+  border-color: red;
+  border-width: medium;
+  border-style: ridge;
 }
